@@ -1,0 +1,6 @@
+// mockResolvedValue({}) : promise that auto resolve itself with an empty object
+export const stripe = {
+  charges: {
+    create: jest.fn().mockResolvedValue({}),
+  },
+};

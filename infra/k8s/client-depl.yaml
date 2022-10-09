@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: client
-          image: shand0o/ticketing-client
+          image: shand0o/client
 ---
 apiVersion: v1
 kind: Service

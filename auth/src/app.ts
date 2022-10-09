@@ -17,8 +17,7 @@ app.use(json());
 app.use(
   cookieSession({
     signed: false,
-    // must make it secure at anything like (production and development)environment, exept test(because test is not secure(http))
-    secure: process.env.NODE_ENV !== "test",
+    secure: false,
   })
 );
 app.use(cors());

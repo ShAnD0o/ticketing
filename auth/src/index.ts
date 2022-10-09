@@ -1,8 +1,10 @@
 import mongoose from "mongoose";
 import { app } from "./app";
 const start = async () => {
-  console.log("Starting up .....");
+
   console.log("more Starting up .....");
+=======
+  console.log("Starting up ......");
 
   //TS know that (process.env.JWT_KEY) is undefined So, to guarntee that (process.env.JWT_KEY) is string to TS (source code at signup.ts)
   if (!process.env.JWT_KEY) {

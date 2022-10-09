@@ -17,7 +17,7 @@ build:
         manual:
           - src: "src/**/*.ts"
             dest: .
-    - image: shand0o/ticketing-client
+    - image: shand0o/client
       context: client
       docker:
         dockerfile: Dockerfile
